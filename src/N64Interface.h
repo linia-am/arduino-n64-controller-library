@@ -22,12 +22,12 @@ public:
     virtual void get();
 };
 
-class N64Interface_PIND : public N64Interface {
-public:
-    N64Interface_PIND(unsigned char pincode) : N64Interface(pincode) {};
-    virtual void init();
-    virtual void send(unsigned char * buffer, char length);
-    virtual void get();
-};
+// class N64Interface_PIND : public N64Interface {
+// public:
+//     N64Interface_PIND(unsigned char pincode) : N64Interface(pincode) {};
+//     virtual void init();
+//     virtual void send(unsigned char * buffer, char length);
+//     virtual void get();
+// };
 
 #endif
